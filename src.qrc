@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="src">
+    <file>MixerLogo.png</file>
+  </qresource>
+</RCC>
