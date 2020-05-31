@@ -15,9 +15,8 @@ The mixer is based on the Python programming language with the intention of bein
 The trained model will not be saved until the user exports it. The exported model has a built-in complete loaded database with all accompanying information, as well as a model on the basis of which class prediction is performed.
 
 Instead of a database, it is possible to load a trained model. But it is not possible to apply additional filters or re-export to the model.
-<p align="center"> 
+
 ### Process flow diagram
-</p>
 <p align="center"> 
 <img src="https://raw.githubusercontent.com/user0706/Mixer/master/ignore/ProcessFlowing.png"/>
 </p>
