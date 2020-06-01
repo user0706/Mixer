@@ -34,7 +34,6 @@ class Dictlist(dict):
         self[key].append(value)
 
 def exists(obj, chain):
-    # Accessing Multidimensional Dictationary Elements
     _key = chain.pop(0)
     if _key in obj:
         return exists(obj[_key], chain) if chain else obj[_key]
